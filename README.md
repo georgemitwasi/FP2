@@ -1,7 +1,18 @@
 ## My Library: (library name here)
-My name:
-Write what you did!
-Remember that this report must include:
+My name: George Mitwasi
+
+In this exploration, I started experimenting with the library that I'm using for my final project. It's a music composition library that uses high-level algorithmic representations of musical concepts to make music. Under the hood, it uses multiple programming languages (including Scheme of course) and because it's a third party project, doesn't have a direct connection to Racket like libraries on the Racket website. So instead of including a simple #lang for access, I had to download the library from http://commonmusic.sourceforge.net/ and use IDE they provided.
+
+The library is extremely complicated and this exploration only taps into it's potential. The IDE was easy to follow. It includes an Editor Window (which you can have multiple of) and a Console Window that displays your output. My insticts told me to start with the "Help" tab, which luckily has Scheme examples and tutorials. This tab was where I spent my time in this exploration.
+
+INSERT "Help me.jpg" HERE
+
+I started with the tutorial section to see how much Scheme I actually knew and how much catching up I had to do. I knew more than 2/3rds of the concepts. The first concept I learned was that of loops. Loops are a convenient way of executing more a statement multiple times. You can include a 'do' tag which lets you execute more than one action statement at the same time. The 'finally' clause let's you execute a statement once at the end of the loop. Below is all the output of concepts I just described shown in Console Window. 
+
+INSERT "Loops.jpg" HERE
+
+The next tutorial I tried was a process.
+
 
 * a narrative of what you did
 * highlights of code that you wrote, with explanation

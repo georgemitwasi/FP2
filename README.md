@@ -11,7 +11,21 @@ I started with the tutorial section to see how much Scheme I actually knew and h
 
 INSERT "Loops.jpg" HERE
 
-The next tutorial I tried was a process.
+The next tutorial I tried was a process. A 'process' is an iterative function made up of a function and a loop that, upon runtime, generates a timeline of events. The keyword 'sprout' is how you can hear a certain process play the audio in real time. Let's say you have the following process:
+```
+(define (simple)
+  (process repeat 20
+           do
+           (mp:midi :key (between 60 96))
+           (wait 0.1)
+           ))
+```
+You can play hear this process in real-time by using the sprout function like this:
+```
+(sprout (simple))
+```
+
+So, why does this matter you might ask? Well this function is the meat and potatoes of how you create midi output. Unfortunately, I havent't figured out how to make FL Studios (my choice Digital Audio Workstation) recieve MIDI data and create music. Though I did successfullly output MIDI to the Console Window as seen below.
 
 
 * a narrative of what you did

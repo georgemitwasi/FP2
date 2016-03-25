@@ -7,9 +7,8 @@ The library is extremely complicated and in this exploration I only tap into it'
 
 ![HelpMe](https://github.com/georgemitwasi/FP2/blob/master/HelpMe.jpg)
 
-I started with the tutorial section to see how much Scheme I actually knew and how much catching up I had to do. I knew more than 2/3rds of the concepts. The first concept I learned was that of Loops. Loops are a convenient way of executing more a statement multiple times. You can include a 'do' tag which lets you execute more than one action statement at the same time. The 'finally' clause let's you execute a statement once at the end of the loop. Below is all the output of concepts I just described shown in Console Window. 
+I started with the tutorial section to see how much Scheme I actually knew and how much catching up I had to do. I knew more than 2/3rds of the concepts. The first concept I learned was that of Loops. Loops are a convenient way of executing more a statement multiple times. You can include a 'do' tag which lets you execute more than one action statement at the same time. The 'finally' clause let's you execute a statement once at the end of the loop. Below is all the output of concepts I just described shown in Console Window. Here I'm just outputting random MIDI notes:
 
-INSERT "Loops.jpg" HERE
 ![Loops](https://github.com/georgemitwasi/FP2/blob/master/Loops.jpg)
 
 The next tutorial on the list of things to be learned was Process. A 'process' is an iterative function that, upon runtime, generates a timeline of events. Note the following process:

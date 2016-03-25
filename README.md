@@ -5,13 +5,12 @@ In this exploration, I experimented with the library that I'm using for my final
 
 The library is extremely complicated and in this exploration I only tap into it's full potential. The IDE was easy to follow. It includes an Editor Window (which you can have multiple of) and a Console Window that displays your output. My insticts told me to start with the "Help" tab, which luckily has Scheme examples and tutorials. This tab was where I spent my time in this exploration.
 
-INSERT "Help me.jpg" HERE
-![Slide1](https://raw.githubusercontent.com/georgemitwasi/FP1/master/Slide1.jpg)
+![HelpMe](https://github.com/georgemitwasi/FP2/blob/master/HelpMe.jpg)
 
 I started with the tutorial section to see how much Scheme I actually knew and how much catching up I had to do. I knew more than 2/3rds of the concepts. The first concept I learned was that of Loops. Loops are a convenient way of executing more a statement multiple times. You can include a 'do' tag which lets you execute more than one action statement at the same time. The 'finally' clause let's you execute a statement once at the end of the loop. Below is all the output of concepts I just described shown in Console Window. 
 
 INSERT "Loops.jpg" HERE
-![Slide1](https://raw.githubusercontent.com/georgemitwasi/FP1/master/Slide1.jpg)
+![Loops](https://github.com/georgemitwasi/FP2/blob/master/Loops.jpg)
 
 The next tutorial on the list of things to be learned was Process. A 'process' is an iterative function that, upon runtime, generates a timeline of events. Note the following process:
 ```
